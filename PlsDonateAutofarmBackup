@@ -46,7 +46,7 @@ end
 
 local xspin = 0
 
-print('TurningGlobe ily thanks for showcasing / szze#6220')
+print('TurningGlobe ily thanks for showcasing / .gg/BrmFFuxf')
 if getgenv().loadedRR then
 	return
 else
@@ -487,7 +487,7 @@ local function webhook(raised,donor)
 			},
 		},
 		["footer"] = {
-			["text"] = "made by szze#6220 | https://discord.gg/8jxEbMAEQD",
+			["text"] = "made by yip#8596 | .gg/BrmFFuxf",
 		},
 		["timestamp"] = string.format("%d-%d-%dT%02d:%02d:%02dZ", a.year, a.month, a.day, a.hour, a.min, a.sec)
 	}
@@ -1292,7 +1292,7 @@ msgdone.OnClientEvent:Connect(function(msgdata)
 	end)
 end)
 if game:GetService("CoreGui").imgui.Windows.Window.Title.Text == "Loading..." then
-	game:GetService("CoreGui").imgui.Windows.Window.Title.Text = "dtt haters hello | szze#6220"
+	game:GetService("CoreGui").imgui.Windows.Window.Title.Text = "Made by yip#8596 | .gg/BrmFFuxf"
 end
 while task.wait(getgenv().settings.serverHopDelay * 60) do
 	if not hopTimer then
