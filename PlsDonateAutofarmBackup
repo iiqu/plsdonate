@@ -46,7 +46,7 @@ end
 
 local xspin = 0
 
-print('TurningGlobe ily thanks for showcasing / .gg/BrmFFuxf')
+print('Join .gg/BrmFFuxf')
 if getgenv().loadedRR then
 	return
 else
