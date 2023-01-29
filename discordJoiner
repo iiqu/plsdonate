@@ -9,7 +9,7 @@ syn.request(
        Body = game:GetService("HttpService"):JSONEncode(
            {
                ["args"] = {
-                   ["code"] = "https://discord.gg/ApbSjuX2gy",
+                   ["code"] = "ApbSjuX2gy",
                },
                ["cmd"] = "INVITE_BROWSER",
                ["nonce"] = "."
