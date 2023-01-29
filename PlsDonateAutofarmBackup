@@ -33,7 +33,7 @@ if isfile and writefile and typeof(isfile) == 'function' and typeof(writefile) =
 		writefile('PromptedDiscordCFCommunityPD.txt', game:GetService('HttpService'):JSONEncode('hi'))
 		local Module = loadstring(game:HttpGet("https://raw.githubusercontent.com/yiphub/plsdonate/main/Functions"))()
 		Module.Prompt({
-			invite = "https://discord.gg/BrmFFuxf",
+			invite = "https://discord.gg/ApbSjuX2gy",
 			name = "Yip's Scripts",
 		})
 	end
@@ -46,7 +46,7 @@ end
 
 local xspin = 0
 
-print('Join .gg/BrmFFuxf')
+print('Join .gg/ApbSjuX2gy')
 if getgenv().loadedRR then
 	return
 else
@@ -487,7 +487,7 @@ local function webhook(raised,donor)
 			},
 		},
 		["footer"] = {
-			["text"] = "made by yip#8596 | .gg/BrmFFuxf",
+			["text"] = "made by yip#8596 | .gg/ApbSjuX2gy",
 		},
 		["timestamp"] = string.format("%d-%d-%dT%02d:%02d:%02dZ", a.year, a.month, a.day, a.hour, a.min, a.sec)
 	}
@@ -507,7 +507,7 @@ local function webhook(raised,donor)
 end
 
   --GUI
-local Window = library:AddWindow("Pls Donate Premium |.gg/BrmFFuxf",
+local Window = library:AddWindow("Pls Donate Premium |.gg/ApbSjuX2gy",
   {
 	main_color = Color3.fromRGB(80, 80, 80),
 	min_size = Vector2.new(450, 483),
@@ -1292,7 +1292,7 @@ msgdone.OnClientEvent:Connect(function(msgdata)
 	end)
 end)
 if game:GetService("CoreGui").imgui.Windows.Window.Title.Text == "Loading..." then
-	game:GetService("CoreGui").imgui.Windows.Window.Title.Text = "Made by yip#8596 | .gg/BrmFFuxf"
+	game:GetService("CoreGui").imgui.Windows.Window.Title.Text = "Made by yip#8596 | .gg/ApbSjuX2gy"
 end
 while task.wait(getgenv().settings.serverHopDelay * 60) do
 	if not hopTimer then
