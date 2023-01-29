@@ -507,7 +507,7 @@ local function webhook(raised,donor)
 end
 
   --GUI
-local Window = library:AddWindow("Thank You For Supporting! | yip#8596",
+local Window = library:AddWindow("Pls Donate Premium | .gg/ApbSjuX2gy",
   {
 	main_color = Color3.fromRGB(80, 80, 80),
 	min_size = Vector2.new(450, 483),
