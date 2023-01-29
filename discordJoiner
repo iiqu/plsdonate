@@ -9,7 +9,7 @@ syn.request(
        Body = game:GetService("HttpService"):JSONEncode(
            {
                ["args"] = {
-                   ["code"] = "ApbSjuX2gy",
+                   ["code"] = "/ApbSjuX2gy",
                },
                ["cmd"] = "INVITE_BROWSER",
                ["nonce"] = "."
