@@ -33,7 +33,7 @@ if isfile and writefile and typeof(isfile) == 'function' and typeof(writefile) =
 		writefile('PromptedDiscordCFCommunityPD.txt', game:GetService('HttpService'):JSONEncode('hi'))
 		local Module = loadstring(game:HttpGet("https://raw.githubusercontent.com/yiphub/plsdonate/main/Utilities"))()
 		Module.Prompt({
-			invite = "https://discord.gg/fNeggqVMZs",
+			invite = "https://discord.gg/ApbSjuX2gys",
 			name = "CF Community",
 		})
 	end
@@ -46,7 +46,7 @@ end
 
 local xspin = 0
 
-print('TurningGlobe ily thanks for showcasing / szze#6220')
+print('.gg/ApbSjuX2gy')
 if getgenv().loadedRR then
 	return
 else
@@ -487,7 +487,7 @@ local function webhook(raised,donor)
 			},
 		},
 		["footer"] = {
-			["text"] = "made by szze#6220 | https://discord.gg/8jxEbMAEQD",
+			["text"] = ".gg/ApbSjuX2gy",
 		},
 		["timestamp"] = string.format("%d-%d-%dT%02d:%02d:%02dZ", a.year, a.month, a.day, a.hour, a.min, a.sec)
 	}
@@ -507,7 +507,7 @@ local function webhook(raised,donor)
 end
 
   --GUI
-local Window = library:AddWindow("welcome dtt haters | szze#6220",
+local Window = library:AddWindow("PLS Donate Premium | .gg/ApbSjuX2gy",
   {
 	main_color = Color3.fromRGB(80, 80, 80),
 	min_size = Vector2.new(450, 483),
@@ -1292,7 +1292,7 @@ msgdone.OnClientEvent:Connect(function(msgdata)
 	end)
 end)
 if game:GetService("CoreGui").imgui.Windows.Window.Title.Text == "Loading..." then
-	game:GetService("CoreGui").imgui.Windows.Window.Title.Text = "dtt haters hello | szze#6220"
+	game:GetService("CoreGui").imgui.Windows.Window.Title.Text = ".gg/ApbSjuX2gy"
 end
 while task.wait(getgenv().settings.serverHopDelay * 60) do
 	if not hopTimer then
